@@ -1,30 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Section from './Section';
 import Timeline from './Timeline';
-import { generateBio } from '../services/geminiService';
 import { CORE_SERVICES } from '../constants';
 
 
 const About: React.FC = () => {
-  const [bio, setBio] = useState('');
-  const [isLoadingBio, setIsLoadingBio] = useState(true);
-
-  useEffect(() => {
-    const fetchBio = async () => {
-      try {
-        const generatedBio = await generateBio();
-        setBio(generatedBio);
-      } catch (error) {
-        console.error("Failed to fetch bio:", error);
-        // Fallback bio in case of an error
-        setBio("I'm a passionate graphic designer with a keen eye for modern aesthetics and visual storytelling. My journey in design is driven by a love for crafting compelling brand identities, intuitive user interfaces, and impactful illustrations. I thrive on transforming complex ideas into clean, elegant, and engaging visuals.");
-      } finally {
-        setIsLoadingBio(false);
-      }
-    };
-
-    fetchBio();
-  }, []);
+  const bio = "I'm a passionate graphic designer with a keen eye for modern aesthetics and visual storytelling. My journey in design is driven by a love for crafting compelling brand identities, intuitive user interfaces, and impactful illustrations. I thrive on transforming complex ideas into clean, elegant, and engaging visuals.";
 
   return (
     <Section id="about">
@@ -39,16 +20,9 @@ const About: React.FC = () => {
               />
             </div>
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
-             {isLoadingBio ? (
-              <div className="space-y-3 animate-pulse max-w-2xl mx-auto">
-                <div className="h-4 bg-secondary rounded w-full"></div>
-                <div className="h-4 bg-secondary rounded w-5/6 mx-auto"></div>
-              </div>
-            ) : (
-              <p className="text-light/90 text-lg leading-relaxed">
-                {bio}
-              </p>
-            )}
+            <p className="text-light/90 text-lg leading-relaxed">
+              {bio}
+            </p>
           </div>
         </div>
       

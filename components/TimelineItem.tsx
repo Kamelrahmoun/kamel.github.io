@@ -8,38 +8,31 @@ interface TimelineItemProps {
 
 const TimelineItem: React.FC<TimelineItemProps> = ({ milestone, index }) => {
   const isEven = index % 2 === 0;
-  const alignmentClasses = isEven ? 'md:flex-row' : 'md:flex-row-reverse';
-  const revealAnimation = isEven ? 'reveal-left' : 'reveal-right';
+  const revealAnimation = isEven ? 'reveal-right' : 'reveal-left';
+  const containerPosition = isEven ? 'md:w-1/2 md:mr-auto' : 'md:w-1/2 md:ml-auto';
+  const cardAlignment = isEven ? 'md:text-left' : 'md:text-right';
+  const dotPosition = isEven ? 'md:right-0' : 'md:left-0';
+  const contentPadding = isEven ? 'md:pr-8' : 'md:pl-8';
 
   return (
-    <div className={`flex items-center w-full ${alignmentClasses}`}>
-      {/* Content Card */}
+    <div className={`relative mb-12 ${containerPosition}`}>
+      {/* Dot */}
+      <div className={`absolute top-2 left-5 md:left-auto -translate-x-1/2 z-10 ${dotPosition}`}>
+        <div className="w-5 h-5 bg-primary border-2 border-accent rounded-full"></div>
+        <div className="absolute top-1/2 left-1/2 w-8 h-8 bg-accent rounded-full -translate-x-1/2 -translate-y-1/2 -z-10 animate-ping"></div>
+      </div>
+
+      {/* Content */}
       <div
-        className={`w-full md:w-5/12 reveal ${revealAnimation}`}
+        className={`pl-12 md:pl-0 md:pr-0 reveal ${revealAnimation}`}
         style={{ '--delay': `${index * 150}ms` } as React.CSSProperties}
       >
-        <div className="glass-card p-6 rounded-lg shadow-lg">
+        <div className={`glass-card p-6 rounded-lg shadow-lg ${contentPadding} ${cardAlignment}`}>
           <p className="text-accent font-semibold mb-1">{milestone.year}</p>
           <h3 className="text-xl font-bold mb-2 text-light">{milestone.title}</h3>
-          <p className="text-light/70">{milestone.description}</p>
+          <p className="text-light/70 text-left md:text-inherit">{milestone.description}</p>
         </div>
       </div>
-      
-      {/* Spacer and Dot */}
-      <div className="relative w-full md:w-2/12 flex-shrink-0">
-        <div className="hidden md:block absolute inset-0 w-full h-full">
-           <div className="absolute top-1/2 left-1/2 w-5 h-5 bg-primary border-2 border-accent rounded-full -translate-x-1/2 -translate-y-1/2 z-10"></div>
-           <div className="absolute top-1/2 left-1/2 w-8 h-8 bg-accent rounded-full -translate-x-1/2 -translate-y-1/2 z-0 animate-ping"></div>
-        </div>
-      </div>
-
-      {/* Icon (visible on mobile, spacer on desktop) */}
-       <div className="w-full md:w-5/12 px-4 md:px-0 flex items-center gap-4 md:hidden">
-          <div className="bg-secondary p-3 rounded-full border border-light/10">
-            <milestone.icon className="w-6 h-6 text-accent" />
-          </div>
-       </div>
-
     </div>
   );
 };

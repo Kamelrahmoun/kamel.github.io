@@ -58,10 +58,10 @@ const IllustrationIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 
 export const SKILLS: Skill[] = [
   { name: 'Adobe Illustrator', icon: AdobeIllustratorIcon, size: 'large' },
+  { name: 'Figma', icon: FigmaIcon, size: 'large' },
   { name: 'Adobe Photoshop', icon: AdobePhotoshopIcon, size: 'small' },
   { name: 'Adobe After Effects', icon: AdobeAfterEffectsIcon, size: 'small' },
   { name: 'Adobe Premiere Pro', icon: AdobePremiereIcon, size: 'small' },
-  { name: 'Figma', icon: FigmaIcon, size: 'large' },
   { name: 'Branding', icon: BrandingIcon, size: 'small' },
 ];
 

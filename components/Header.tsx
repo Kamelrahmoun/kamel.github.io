@@ -14,7 +14,7 @@ const Header: React.FC = () => {
     <header id="home" className="h-screen flex items-center justify-center relative overflow-hidden">
       <div className="text-center z-20">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight animate-fade-in-up" style={{ animationDelay: '100ms' }}>
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-light to-accent">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-light to-accent animate-gradient-text">
             Kamel Rahmoun
           </span>
         </h1>
@@ -38,6 +38,16 @@ const Header: React.FC = () => {
         .animate-fade-in-up {
           opacity: 0;
           animation: fadeInUp 0.8s ease-out forwards;
+        }
+        
+        @keyframes animate-gradient {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        .animate-gradient-text {
+          background-size: 200% auto;
+          animation: animate-gradient 5s ease-in-out infinite;
         }
       `}</style>
     </header>

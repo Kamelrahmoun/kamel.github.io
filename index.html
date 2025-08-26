@@ -33,21 +33,24 @@
       }
     </script>
     <style>
-      /* Base animation class for scroll reveals */
+      /* Advanced scroll-reveal animations */
       .reveal {
         opacity: 0;
-        transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1), transform 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        --reveal-x: 0;
+        --reveal-y: 0;
+        --reveal-scale: 1;
+        transform: translateX(var(--reveal-x)) translateY(var(--reveal-y)) scale(var(--reveal-scale));
+        transition: opacity 0.9s cubic-bezier(0.17, 0.55, 0.55, 1), transform 0.9s cubic-bezier(0.17, 0.55, 0.55, 1);
         transition-delay: var(--delay, 0s);
       }
       .visible .reveal {
         opacity: 1;
-        transform: none;
+        transform: translateX(0) translateY(0) scale(1);
       }
+      .reveal-up { --reveal-y: 40px; --reveal-scale: 0.98; }
+      .reveal-left { --reveal-x: -40px; --reveal-scale: 0.98; }
+      .reveal-right { --reveal-x: 40px; --reveal-scale: 0.98; }
 
-      /* Directional variations */
-      .reveal-up { transform: translateY(40px); }
-      .reveal-left { transform: translateX(-40px); }
-      .reveal-right { transform: translateX(40px); }
 
       /* Modern Animated Aurora Background */
       @keyframes aurora {
