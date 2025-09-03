@@ -1,0 +1,82 @@
+
+[
+  {
+    "id": 1,
+    "title": "AURA - Branding Identity",
+    "category": "Branding",
+    "imageUrl": "https://picsum.photos/seed/aura/800/600",
+    "description": "A complete branding package for a modern cosmetics company, focusing on minimalist and elegant design principles.",
+    "detailedDescription": "The AURA project involved developing a full brand identity from the ground up. This included logo design, color palette selection, typography, and creating a comprehensive brand style guide. The goal was to create a look that felt luxurious, clean, and appealing to a modern demographic. I utilized Adobe Illustrator for vector assets and Figma for prototyping marketing materials.",
+    "gallery": [
+      "https://picsum.photos/seed/aura-1/1200/800",
+      "https://picsum.photos/seed/aura-2/1200/800",
+      "https://picsum.photos/seed/aura-3/1200/800"
+    ],
+    "driveLink": "https://drive.google.com/"
+  },
+  {
+    "id": 2,
+    "title": "Nexa Website UI/UX",
+    "category": "Web Design",
+    "imageUrl": "https://picsum.photos/seed/nexa/800/600",
+    "description": "User interface and experience design for a next-generation tech startup, built to be intuitive and visually striking.",
+    "detailedDescription": "For Nexa, a cutting-edge tech startup, I was tasked with designing their primary marketing website. The focus was on creating a seamless user experience that clearly communicated their complex services. I conducted user research, created wireframes and high-fidelity mockups in Figma, and developed an interactive prototype to present to stakeholders. The final design prioritizes clarity, accessibility, and a futuristic aesthetic.",
+    "gallery": [
+      "https://picsum.photos/seed/nexa-1/1200/800",
+      "https://picsum.photos/seed/nexa-2/1200/800"
+    ],
+    "driveLink": "https://drive.google.com/"
+  },
+  {
+    "id": 3,
+    "title": "Metropolis Poster Series",
+    "category": "Illustration",
+    "imageUrl": "https://picsum.photos/seed/metropolis/800/600",
+    "description": "A series of promotional posters for a film festival, combining vector art with dramatic typography.",
+    "detailedDescription": "This was a passion project creating a series of three posters for a fictional film festival called \"Metropolis\". Each poster represents a different film genre—sci-fi, noir, and fantasy. I used Adobe Illustrator to create bold vector illustrations and experimented with dynamic typographic layouts in Adobe InDesign to capture the mood of each genre.",
+    "gallery": [
+      "https://picsum.photos/seed/metropolis-1/800/1200",
+      "https://picsum.photos/seed/metropolis-2/800/1200",
+      "https://picsum.photos/seed/metropolis-3/800/1200"
+    ],
+    "driveLink": "https://drive.google.com/"
+  },
+  {
+    "id": 4,
+    "title": "EcoPack Packaging Design",
+    "category": "Packaging",
+    "imageUrl": "https://picsum.photos/seed/ecopack/800/600",
+    "description": "Sustainable and creative packaging solutions for an eco-friendly product line.",
+    "detailedDescription": "EcoPack required packaging that was not only visually appealing but also environmentally friendly. I designed a system of recyclable and biodegradable packaging for their line of organic snacks. The design uses earthy tones, clean typography, and custom illustrations to highlight the natural quality of the products. The project balanced aesthetic appeal with practical, sustainable constraints.",
+     "gallery": [
+      "https://picsum.photos/seed/ecopack-1/1200/800",
+      "https://picsum.photos/seed/ecopack-2/1200/800"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Flow Mobile App",
+    "category": "UI/UX",
+    "imageUrl": "https://picsum.photos/seed/flowapp/800/600",
+    "description": "A productivity app designed to help users manage their tasks with a clean and motivating interface.",
+    "detailedDescription": "Flow is a concept for a mobile productivity application. I designed the entire user interface and experience, from initial wireframes to a fully interactive prototype in Figma. The design is minimal and color-coded to help users organize their tasks effortlessly. I focused on creating a user-friendly and motivating experience with smooth transitions and positive reinforcement feedback.",
+    "gallery": [
+      "https://picsum.photos/seed/flowapp-1/800/1600",
+      "https://picsum.photos/seed/flowapp-2/800/1600",
+      "https://picsum.photos/seed/flowapp-3/800/1600"
+    ],
+    "driveLink": "https://drive.google.com/"
+  },
+  {
+    "id": 6,
+    "title": "Vinyl Grooves Album Art",
+    "category": "Illustration",
+    "imageUrl": "https://picsum.photos/seed/vinyl/800/600",
+    "description": "Album artwork for an indie band, capturing their retro sound with a modern visual twist.",
+    "detailedDescription": "I collaborated with the indie band \"Vinyl Grooves\" to create the artwork for their debut album. The concept was to blend a 70s retro vibe with a modern, graphic style. I created a custom illustration and typography that was used on the vinyl sleeve, CD case, and for digital promotion on streaming platforms. The artwork was made primarily in Adobe Photoshop and Illustrator.",
+     "gallery": [
+      "https://picsum.photos/seed/vinyl-1/1000/1000",
+      "https://picsum.photos/seed/vinyl-2/1000/1000"
+    ]
+  }
+]
