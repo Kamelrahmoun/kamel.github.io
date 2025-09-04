@@ -1,10 +1,9 @@
 import React from 'react';
 
 const Header: React.FC = () => {
-
-  const handleScrollTo = (event: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+  const handleViewWorkClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
-    const section = document.querySelector(targetId);
+    const section = document.querySelector('#projects');
     if (section) {
       section.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
@@ -23,7 +22,7 @@ const Header: React.FC = () => {
         </p>
         <a 
           href="#projects" 
-          onClick={(e) => handleScrollTo(e, '#projects')}
+          onClick={handleViewWorkClick}
           className="mt-8 inline-block bg-accent text-primary font-bold py-3 px-8 rounded-full transition-transform duration-300 hover:bg-accent-hover hover:scale-105 animate-fade-in-up"
           style={{ animationDelay: '500ms' }}
         >

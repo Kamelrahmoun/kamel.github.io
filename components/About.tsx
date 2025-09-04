@@ -9,22 +9,26 @@ const About: React.FC = () => {
 
   return (
     <Section id="about">
-       <div className="text-center max-w-3xl mx-auto">
-          <div className="reveal reveal-up mb-12">
-             <div className="relative group w-48 h-48 mx-auto mb-6">
-               <div className="absolute -inset-2 bg-gradient-to-r from-accent to-red-800 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-              <img
-                src="https://picsum.photos/seed/kamel/500/500"
-                alt="Kamel Rahmoun"
-                className="relative rounded-full w-full h-full aspect-square object-cover border-4 border-secondary shadow-lg"
-              />
-            </div>
+       <div className="reveal reveal-up mb-20 md:mb-32">
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-4xl mx-auto">
+          {/* Image */}
+          <div className="relative group w-48 h-48 md:w-60 md:h-60 flex-shrink-0">
+            <div className="absolute -inset-2 bg-gradient-to-r from-accent to-red-800 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+            <img
+              src="https://picsum.photos/seed/kamel/500/500"
+              alt="Kamel Rahmoun"
+              className="relative rounded-full w-full h-full aspect-square object-cover border-4 border-secondary shadow-lg"
+            />
+          </div>
+          {/* Bio Text */}
+          <div className="text-center md:text-left">
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-light/90 text-lg leading-relaxed">
               {bio}
             </p>
           </div>
         </div>
+      </div>
       
       <Timeline />
 

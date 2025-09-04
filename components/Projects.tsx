@@ -7,42 +7,50 @@ import type { Project } from '../types';
 const PROJECTS: Project[] = [
   {
     "id": 1,
-    "title": "AURA - Branding Identity",
-    "category": "Branding",
-    "imageUrl": "https://picsum.photos/seed/aura/800/600",
-    "description": "A complete branding package for a modern cosmetics company, focusing on minimalist and elegant design principles.",
-    "detailedDescription": "The AURA project involved developing a full brand identity from the ground up. This included logo design, color palette selection, typography, and creating a comprehensive brand style guide. The goal was to create a look that felt luxurious, clean, and appealing to a modern demographic. I utilized Adobe Illustrator for vector assets and Figma for prototyping marketing materials.",
+
+    "imageUrl": "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947953/kamel_rahmoun_1_eho7mn.jpg",
+   
+  "title": "SPIRIT",
+  "category": "Book Cover Design",
+  "description": "A conceptual book cover design that emphasizes spirituality, protection, and adventure.",
+  "detailedDescription": "The design uses a monochrome portrait as the main visual element, highlighting depth and emotion. Bold typography for the title 'SPIRIT' at the top conveys strength and presence, while supporting texts like 'Spiritual Peace,' 'The Protection,' and 'Adventure' create thematic balance. The contrast between the dark background and the white text enhances readability and visual impact, making the design modern, minimalistic, yet emotionally engaging. This layout is suitable for books focusing on spirituality, self-discovery, or personal growth.",
     "gallery": [
-      "https://picsum.photos/seed/aura-1/1200/800",
-      "https://picsum.photos/seed/aura-2/1200/800",
-      "https://picsum.photos/seed/aura-3/1200/800"
+
     ],
     "driveLink": "https://drive.google.com/"
   },
   {
     "id": 2,
-    "title": "Nexa Website UI/UX",
-    "category": "Web Design",
-    "imageUrl": "https://picsum.photos/seed/nexa/800/600",
-    "description": "User interface and experience design for a next-generation tech startup, built to be intuitive and visually striking.",
-    "detailedDescription": "For Nexa, a cutting-edge tech startup, I was tasked with designing their primary marketing website. The focus was on creating a seamless user experience that clearly communicated their complex services. I conducted user research, created wireframes and high-fidelity mockups in Figma, and developed an interactive prototype to present to stakeholders. The final design prioritizes clarity, accessibility, and a futuristic aesthetic.",
+    "title": "Oasis Resort & Spa",
+    "category": "Architecture & Interior Design — Hospitality",
+    "description": "A full resort package: site masterplan, public-area floor plans, guest-room layout, sectional elevations, and pool construction details.",
+    "detailedDescription": "The project organizes arrival, lobby, café/bar, dining, and lounge seating around a central water feature with direct spill-out to a tiered pool deck. A multipurpose hall sits off the lobby for events. The leisure wing groups a gym, spa/beauty suites, locker areas, and a games lounge for clear, short circulation from the elevator core. Guest accommodation is a compact twin-bed capsule with terrace glazing, a seating nook, and a bathroom with tub, bidet, and vanity; built-ins keep the plan efficient. The masterplan places villas in nested circles around a central plaza and fountain, adds a landmark pool, tennis courts, small football pitch, amphitheater, shaded parking, and walkable garden promenades. Sections A–A’ and B–B’ show the relationship between tall arched façades, interior feature walls, and the pool edge. Material palette: white stone/marble floors, deep blue upholstery, warm amber/onyx panels, light wood, and metal trims. Technical sheets document the pool build-up—reinforced concrete shell, cementitious waterproofing, insulation/protection layers, ceramic tiling, marble copings, and step profiles—ensuring durability and clean execution.",
+        
+    "imageUrl": "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756949063/%D9%84%D8%A7%D8%A7%D9%86%D8%AF_%D8%B5%D8%A7%D9%84%D8%AD_1_jr79t5.jpg",
+    
     "gallery": [
-      "https://picsum.photos/seed/nexa-1/1200/800",
-      "https://picsum.photos/seed/nexa-2/1200/800"
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947946/%D9%85%D8%B3%D9%82%D8%B7_2Model_hzddfi.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947938/4_tngbuc.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947935/%D9%85%D9%82%D8%A7%D8%B7%D8%B9_%D8%A7%D8%AE%D8%B1%D8%A7%D8%AC_awczjm.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947931/5_e6xoa9.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947914/%D9%83%D8%A8%D8%B3%D9%88%D9%84%D8%A9_x_djgije.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947911/3_g52dcd.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947908/%D9%85%D8%B3%D9%82%D8%B7_1-Model_krl6tz.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947881/43_ceneau.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947861/2_au7sde.jpg"
     ],
     "driveLink": "https://drive.google.com/"
   },
   {
     "id": 3,
-    "title": "Metropolis Poster Series",
-    "category": "Illustration",
-    "imageUrl": "https://picsum.photos/seed/metropolis/800/600",
-    "description": "A series of promotional posters for a film festival, combining vector art with dramatic typography.",
-    "detailedDescription": "This was a passion project creating a series of three posters for a fictional film festival called \"Metropolis\". Each poster represents a different film genre—sci-fi, noir, and fantasy. I used Adobe Illustrator to create bold vector illustrations and experimented with dynamic typographic layouts in Adobe InDesign to capture the mood of each genre.",
-    "gallery": [
-      "https://picsum.photos/seed/metropolis-1/800/1200",
-      "https://picsum.photos/seed/metropolis-2/800/1200",
-      "https://picsum.photos/seed/metropolis-3/800/1200"
+  
+  "title": "Visual Branding Interfaces",
+  "category": "Web & UI Design",
+  "description": "Two contrasting website design concepts that showcase different approaches to branding and user experience.",
+  "detailedDescription": "The first design (CHANEL) reflects luxury web aesthetics: clean black-and-white visuals, elegant typography, and minimal layouts that emphasize sophistication and high-end branding. The second design (BURGER KING) applies a vibrant and playful style: bold colors, large product images, and clear category divisions that enhance usability and engagement. Together, these designs demonstrate how web interfaces adapt to brand identity—luxury brands favoring simplicity and elegance, while fast-food brands emphasize energy, accessibility, and visual appetite appeal.",
+    "imageUrl": "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947818/%D9%83%D8%A7%D9%85%D9%84_%D8%B1%D8%AD%D9%85%D9%88%D9%86_1_sz1vat.jpg",
+   "gallery": [
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947830/%D9%83%D8%A7%D9%85%D9%84_z96cm1.jpg"
     ],
     "driveLink": "https://drive.google.com/"
   },
@@ -50,39 +58,23 @@ const PROJECTS: Project[] = [
     "id": 4,
     "title": "EcoPack Packaging Design",
     "category": "Packaging",
-    "imageUrl": "https://picsum.photos/seed/ecopack/800/600",
+    "imageUrl": "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947770/%D9%83%D9%88%D9%83%D8%A8_x-0%D9%A1_mgmt2e.jpg",
     "description": "Sustainable and creative packaging solutions for an eco-friendly product line.",
     "detailedDescription": "EcoPack required packaging that was not only visually appealing but also environmentally friendly. I designed a system of recyclable and biodegradable packaging for their line of organic snacks. The design uses earthy tones, clean typography, and custom illustrations to highlight the natural quality of the products. The project balanced aesthetic appeal with practical, sustainable constraints.",
      "gallery": [
-      "https://picsum.photos/seed/ecopack-1/1200/800",
-      "https://picsum.photos/seed/ecopack-2/1200/800"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Flow Mobile App",
-    "category": "UI/UX",
-    "imageUrl": "https://picsum.photos/seed/flowapp/800/600",
-    "description": "A productivity app designed to help users manage their tasks with a clean and motivating interface.",
-    "detailedDescription": "Flow is a concept for a mobile productivity application. I designed the entire user interface and experience, from initial wireframes to a fully interactive prototype in Figma. The design is minimal and color-coded to help users organize their tasks effortlessly. I focused on creating a user-friendly and motivating experience with smooth transitions and positive reinforcement feedback.",
-    "gallery": [
-      "https://picsum.photos/seed/flowapp-1/800/1600",
-      "https://picsum.photos/seed/flowapp-2/800/1600",
-      "https://picsum.photos/seed/flowapp-3/800/1600"
-    ],
-    "driveLink": "https://drive.google.com/"
-  },
-  {
-    "id": 6,
-    "title": "Vinyl Grooves Album Art",
-    "category": "Illustration",
-    "imageUrl": "https://picsum.photos/seed/vinyl/800/600",
-    "description": "Album artwork for an indie band, capturing their retro sound with a modern visual twist.",
-    "detailedDescription": "I collaborated with the indie band \"Vinyl Grooves\" to create the artwork for their debut album. The concept was to blend a 70s retro vibe with a modern, graphic style. I created a custom illustration and typography that was used on the vinyl sleeve, CD case, and for digital promotion on streaming platforms. The artwork was made primarily in Adobe Photoshop and Illustrator.",
-     "gallery": [
-      "https://picsum.photos/seed/vinyl-1/1000/1000",
-      "https://picsum.photos/seed/vinyl-2/1000/1000"
-    ]
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947776/%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9_%D8%B4%D8%A8_x-0%D9%A1_u3vnvu.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947772/%D8%B4%D8%AC%D8%B1%D8%A9_x-0%D9%A1_f1lzmb.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947770/%D9%83%D9%88%D9%83%D8%A8_x-0%D9%A1_mgmt2e.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947758/%D8%B5%D9%86%D8%AF%D9%88%D9%82_x-0%D9%A1_vhvtww.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947769/Free_Square_String_Gift_Box_Mockup_gudfnf.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947762/%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9_%D8%A8%D9%86%D8%AA-0%D9%A1_xble3a.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947751/%D8%AC%D9%88%D8%A7%D9%84-0%D9%A1_y8nor6.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947746/Polo_Shirt_Mockup_1_dtfmvu.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947748/Mailer_Bag_Mockup_3_buhevh.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947745/Envelope_With_String_Mockup_pzotme.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947742/Car_Mockup_Free_PSD_dngndl.jpg",
+      "https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947741/Free_Paper_Square_Box_Mockup11_jkclmh.jpg"
+          ]
   }
 ];
 

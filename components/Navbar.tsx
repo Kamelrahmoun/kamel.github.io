@@ -96,8 +96,13 @@ const Navbar: React.FC = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled || isMenuOpen ? 'bg-secondary/70 backdrop-blur-md shadow-lg border-b border-light/10' : 'bg-transparent'}`}>
       <div className="container mx-auto max-w-6xl px-4">
         <div className="flex justify-between items-center h-20">
-          <a href="#home" className="text-2xl font-bold text-light hover:text-accent transition-colors" onClick={(e) => handleNavClick(e, '#home')}>
-            KR.
+          <a href="#home" onClick={(e) => handleNavClick(e, '#home')} aria-label="Kamel Rahmoun homepage">
+            <img 
+              src="https://res.cloudinary.com/ddxnntc2u/image/upload/v1756947032/logo_efqvot.png" 
+              alt="Kamel Rahmoun Logo" 
+              className="h-8 w-auto transition-transform duration-300 ease-in-out hover:scale-105"
+              style={{ filter: 'brightness(0) invert(1)' }}
+            />
           </a>
           
           {/* Desktop Menu */}

@@ -66,10 +66,10 @@ export const SKILLS: Skill[] = [
 ];
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://www.linkedin.com/",
-  behance: "https://www.behance.net/",
-  dribbble: "https://dribbble.com/",
-  email: "mailto:kamel.rahmoun@example.com"
+  email: "mailto:kamel.rahmoun@example.com",
+  phone: "tel:+15551234567",
+  facebook: "https://www.facebook.com/",
+  whatsapp: "https://wa.me/15551234567"
 };
 
 
@@ -82,19 +82,19 @@ export interface Milestone {
 
 export const TIMELINE_MILESTONES: Milestone[] = [
   {
-    year: "2021",
+    year: "2022",
     title: "Started Graphic Design Journey",
     description: "Began my studies, diving into the fundamental principles of design theory, color, and typography that form the foundation of my work.",
     icon: BookOpenIcon,
   },
   {
-    year: "2022",
+    year: "2023",
     title: "Mastered the Adobe Suite",
     description: "Gained proficiency in industry-standard tools like Illustrator, Photoshop, and After Effects, enabling me to turn complex concepts into digital art.",
     icon: PenToolIcon,
   },
   {
-    year: "2023",
+    year: "2024",
     title: "Explored UI/UX Design",
     description: "Expanded my skills into user interface and experience design, learning to craft intuitive and visually compelling digital experiences using Figma.",
     icon: LayoutIcon,
